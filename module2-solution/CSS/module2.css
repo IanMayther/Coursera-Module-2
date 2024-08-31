@@ -1,0 +1,42 @@
+/*large browser -> 992+
+tablet -> 768px to 991
+mobile -> 767-
+*/
+
+* {
+    box-sizing: border-box;
+
+}
+
+div {
+    border: black 3px solid;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightgrey;
+}
+
+h1 {
+    align-items: center;
+}
+
+/*Large Broswer setting*/
+@media (min-width: 992px){
+    #browser {
+        width: 33%;
+    }
+}
+
+/*Tablet Browser settings*/
+@media (min-width: 768px) and (max-width: 991px){
+    #browser {
+        width: 50%;
+    }
+}
+
+/*Mobile Browser settings*/
+@media (max-width: 767px){
+    #browser {
+        width: 100%;
+    }
+}
